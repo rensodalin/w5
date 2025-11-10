@@ -71,3 +71,4 @@ class HobbyCard extends StatelessWidget {
     );
   }
 }
+

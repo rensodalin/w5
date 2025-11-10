@@ -11,7 +11,6 @@ void main() {
       home: Scaffold(
         body: Column(
           children: [
-            // ✅ Top bar
             Container(
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
@@ -130,7 +129,7 @@ class WeatherCard extends StatelessWidget {
           ),
           child: Stack(
             children: [
-              // ✅ Optional decorative oval
+             
               Positioned(
                 right: -30,
                 top: -20,
@@ -144,7 +143,7 @@ class WeatherCard extends StatelessWidget {
                 ),
               ),
 
-              // ✅ Weather content
+            
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Row(
